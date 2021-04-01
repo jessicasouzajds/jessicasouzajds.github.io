@@ -50,6 +50,12 @@
     </div>
   </nav>
 
+	
+	
+	
+	
+	
+	
   <div class="container-fluid p-0">
 
 	<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
@@ -62,29 +68,44 @@
         <div class="w-100">
 		
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="resume-content">
-                    <h3 class="mb-0">Contact me (me envie um e-mail)</h3>
-					
-						<h1> </h1>
-						<p>
-							
-						      <form action=”mailto:jessica.souzajds@gmail.com”
-						      method=”POST”
-						      enctype=”multipart/form-data”
-						      name=”EmailForm”>
-						      Name:<br>
-						      <input type=”text” size=”19″ name=”ContactName”><br><br>
-						      Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
-						      </textarea><br><br> <input type=”submit” value=”Submit”> </form>	
-						</p>
-                </div>
-             
+		<link href="contact-form.css" rel="stylesheet">
 
+		<div class="fcf-body">
 
-                <div class="resume-date text-md-right">
-                    <h4 class="text-primary">2020</h4>
-					<br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
-                </div>
+		    <div id="fcf-form">
+		    <h3 class="fcf-h3">Formulário de Contato</h3>
+
+		    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+			<div class="fcf-form-group">
+			    <label for="Name" class="fcf-label">Your name</label>
+			    <div class="fcf-input-group">
+				<input type="text" id="Name" name="Name" class="fcf-form-control" required>
+			    </div>
+			</div>
+
+			<div class="fcf-form-group">
+			    <label for="Email" class="fcf-label">Seu endereço de email</label>
+			    <div class="fcf-input-group">
+				<input type="email" id="Email" name="Email" class="fcf-form-control" required>
+			    </div>
+			</div>
+
+			<div class="fcf-form-group">
+			    <label for="Message" class="fcf-label">Sua mensagem</label>
+			    <div class="fcf-input-group">
+				<textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+			    </div>
+			</div>
+
+			<div class="fcf-form-group">
+			    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Enviar</button>
+			</div>
+
+		    </form>
+		    </div>
+
+		</div>
             </div>
         </div>
     </section>
