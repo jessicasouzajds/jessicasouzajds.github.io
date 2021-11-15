@@ -236,3 +236,28 @@ a:hover, a:focus, a:active {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.topnav a {
+  float: left;
+  color: #a1b39b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #d6e1d3;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #a1b39b;
+  color: white;
+}
