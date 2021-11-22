@@ -10,7 +10,6 @@
      @media screen and (min-width:801px){
         body{padding-top:0;padding-left:17rem}
         img.figures {
-            position:absolute;
             width:850px;
             height:auto;
             text-align:center;
@@ -20,7 +19,6 @@
      @media only screen and (min-width: 300px) and (max-width: 800px){
         body{padding-top:0;padding-left:1rem}
         img.figures {
-            position:absolute;
             width:350px !important;
             height:auto;
             text-align:center;
