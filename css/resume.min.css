@@ -18,6 +18,8 @@
      
      @media only screen and (min-width: 300px) and (max-width: 800px){
         body{padding-top:0;padding-left:1rem}
+        table {
+            width: 60% !important;}
         img.figures {
             width:350px !important;
             height:auto;
