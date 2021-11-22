@@ -41,9 +41,9 @@
         text-transform:uppercase;
         color:#343a40}
         
-        h2{color:#a1b39b;font-family:'Muli'}
+        h2{color:#a1b39b;font-family:'Muli' !important}
         h1{font-size:6rem;line-height:5.5rem}
-        h2{font-size:3.5rem}
+        h2{font-size:3.5rem;text-transform:none}
         h3{font-size:2rem}
         p.lead{font-size:1.15rem;font-weight:400}
 
