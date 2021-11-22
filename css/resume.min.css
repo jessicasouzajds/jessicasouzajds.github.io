@@ -134,3 +134,10 @@
         .text-primary{color:#a1b39b!important}
         a{color:#a1b39b}
         a:active,a:focus,a:hover{color:#61796a}
+
+        .figures {
+            position:absolute;
+            top:0px;
+            width:100%;
+            height:auto;
+            }
