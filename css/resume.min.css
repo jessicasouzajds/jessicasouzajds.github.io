@@ -16,14 +16,6 @@
         }
     }
      
-     @media ( (min-width: 300px) and (max-width: 800px)){
-        body{padding-top:0;padding-left:10rem}
-        img.figures {
-            position:absolute;
-            width:250px !important;
-            height:auto;
-        }
-     }
      
      @media screen and (min-width:801px){
         body{padding-top:0;padding-left:17rem}
@@ -34,11 +26,11 @@
         }
     }
      
-     @media screen and ( (min-width: 300px) and (max-width: 800px)){
+     @media only screen and (min-width: 300px) and (max-width: 800px){
         body{padding-top:0;padding-left:10rem}
         img.figures {
             position:absolute;
-            width:250px;
+            width:250px !important;
             height:auto;
         }
      }   
