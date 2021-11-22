@@ -7,9 +7,9 @@
      padding-top:54px;
      color:#868e96}
      
-     @media (min-width:992px){
+     @media (min-width:801px){
         body{padding-top:0;padding-left:17rem}
-        .figures {
+        img.figures {
             position:absolute;
             top:0px;
             width:850px;
@@ -19,7 +19,7 @@
      
      @media ( (min-width: 300px) and (max-width: 800px)){
         body{padding-top:0;padding-left:10rem}
-        .figures {
+        img.figures {
             position:absolute;
             top:0px;
             width:250px;
