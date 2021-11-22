@@ -6,25 +6,14 @@
      font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
      padding-top:54px;
      color:#868e96}
-     
-     @media (min-width:801px){
-        body{padding-top:0;padding-left:17rem}
-        img.figures {
-            position:absolute;
-            width:850px !important;
-            height:auto;
-            text-align:center;
-
-        }
-    }
-     
-     
+          
      @media screen and (min-width:801px){
         body{padding-top:0;padding-left:17rem}
         img.figures {
             position:absolute;
             width:850px;
             height:auto;
+            text-align:center;
         }
     }
      
@@ -32,10 +21,9 @@
         body{padding-top:0;padding-left:1rem}
         img.figures {
             position:absolute;
-            width:250px !important;
+            width:350px !important;
             height:auto;
             text-align:center;
-
         }
      }   
 
